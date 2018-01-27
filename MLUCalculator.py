@@ -5,6 +5,10 @@
 
 import re;
 
+
+T = "Text. Goes. Here."
+
+
 def separate(txt):
 	wStart = 0
 	wEnd = 0
@@ -37,10 +41,6 @@ def sentenceCount(txt,wordArray):
 	print "Sentence Count:"
 	print count
 	return count
-
-
-T = "It's a giant picture. My picture hit someone and he cried. And the picture spelled his name. My dad's name. The picture had a helicopter. Because there's an emergency. Someone went up the ladder. He fell down. Got an ice pack. The person had a very cold, cold, cold ice pack. Because his head hurt for a lot of days. The person feel better the next day. The person had a teddy bear. He had Christmas. Santa gave him presents. The end."
-
 
 def prefixMorpheme(txt):
 	match = re.search('^un', txt)
