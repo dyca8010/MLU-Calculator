@@ -1,7 +1,7 @@
 #MLU Calculation Code
 #Dylan Cassady
 #University of Colorado Boulder
-#Fall 2017
+#Spring 2018
 
 import re;
 
